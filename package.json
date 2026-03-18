@@ -1,35 +1,42 @@
 {
-  "name": "@bu0nq/style.scss.function.fluid",
-  "version": "0.1.0",
-  "description": "Package for integrating Style.SCSS.Function.Fluid",
-  "main": "fluid.scss",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@bu0nq/style.scss.function.rem": "^0.1.0",
-    "@bu0nq/style.scss.function.round": "^0.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bu0nq/style.scss.function.fluid.git"
-  },
-  "keywords": [
-    "style",
-    "scss",
-    "function",
-    "fluid"
-  ],
-  "author": {
-    "name": "bu0nq",
-    "email": "hello@bu0nq.ru"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bu0nq/style.scss.function.fluid/issues"
-  },
-  "homepage": "https://github.com/bu0nq/style.scss.function.fluid#readme",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@bu0nq/scss-function-fluid",
+    "version": "0.1.0",
+    "description": "Package for integrating SCSS Function Fluid",
+    "keywords": [
+        "scss",
+        "style",
+        "frontend",
+        "functions",
+        "fluid"
+    ],
+    "main": "index.scss",
+    "exports": {
+        ".": {
+            "sass": "./index.scss",
+            "default": "./index.scss"
+        }
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@bu0nq/scss-function-rem": "^0.2.0",
+        "@bu0nq/scss-function-round": "^0.1.0"
+    },
+    "author": {
+        "name": "bu0nq",
+        "email": "hello@bu0nq.ru"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bu0nq/scss-function-fluid.git"
+    },
+    "bugs": {
+        "url": "https://github.com/bu0nq/scss-function-fluid/issues"
+    },
+    "homepage": "https://github.com/bu0nq/scss-function-fluid#readme",
+    "publishConfig": {
+        "access": "public"
+    }
 }
