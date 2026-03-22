@@ -1,6 +1,6 @@
 # SCSS Function Fluid
 
-A package for integrating the `px` to `em` conversion function.
+A package for integrating function to create responsive typography and design.
 
 ![npm](https://img.shields.io/npm/v/@bu0nq/scss-function-fluid?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dt/@bu0nq/scss-function-fluid?style=for-the-badge)
