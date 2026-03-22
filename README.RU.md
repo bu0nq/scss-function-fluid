@@ -22,7 +22,7 @@ npm i @bu0nq/scss-function-fluid
 @use "@bu0nq/scss-function-fluid" as *;
 
 .demo {
-    font-size: fluid(16px);
+    font-size: fluid(16px, 24px);
 }
 ```
 
@@ -34,7 +34,7 @@ npm i @bu0nq/scss-function-fluid
 @use "@bu0nq/scss-function-fluid" as function;
 
 .demo {
-    font-size: function.fluid(16px);
+    font-size: function.fluid(16px, 24px);
 }
 ```
 
