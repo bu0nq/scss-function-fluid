@@ -6,6 +6,9 @@ $min-breakpoint: 480px !default;
 $max-breakpoint: 1536px !default;
 $unit: vw !default;
 
+$baseline: 16 !default;
+$round: 2 !default;
+
 @function fluid(
   $min-value,
   $max-value,
@@ -16,9 +19,9 @@ $unit: vw !default;
   $slope: math.div($max-value - $min-value, $max-breakpoint - $min-breakpoint);
   $slope-to-unit: $slope * 100;
 
-  $intercept: round(rem($min-value - $slope * $min-breakpoint), 2);
-  $min-value: round(rem($min-value), 2);
-  $max-value: round(rem($max-value), 2);
+  $intercept: round(rem($min-value - $slope * $min-breakpoint, $baseline), $round);
+  $min-value: round(rem($min-value, $baseline), $round);
+  $max-value: round(rem($max-value, $baseline), $round);
 
   @return clamp(#{$min-value}, #{$slope-to-unit}#{$unit} + #{$intercept}, #{$max-value});
 }
