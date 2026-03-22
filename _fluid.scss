@@ -2,8 +2,8 @@
 @use "@bu0nq/scss-function-rem" as *;
 @use "@bu0nq/scss-function-round" as *;
 
-$min-breakpoint: 320px !default;
-$max-breakpoint: 1600px !default;
+$min-breakpoint: 480px !default;
+$max-breakpoint: 1536px !default;
 $unit: vw !default;
 
 @function fluid(
