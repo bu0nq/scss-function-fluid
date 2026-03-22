@@ -47,5 +47,7 @@ npm i @bu0nq/scss-function-fluid
     $min-breakpoint: 480px,
     $max-breakpoint: 1536px,
     $unit: vw,
+    $baseline: 16,
+    $round: 2,
 );
 ```
