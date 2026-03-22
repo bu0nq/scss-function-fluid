@@ -1,7 +1,7 @@
 {
   "name": "@bu0nq/scss-function-fluid",
   "version": "2.0.0",
-  "description": "Package for integrating SCSS Function Fluid",
+  "description": "A package for integrating functions to create responsive typography and design",
   "keywords": [
     "scss",
     "style",
